@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,9 +10,120 @@
     <meta name="description" content="Questa pagina contiene l'esercizio 3 html">
 
     <title>Lezione HTML</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 1px solid rgb(0, 0, 0);
+            letter-spacing: 1px;
+            font-size: 0,8rem;
+        }
+
+        td, th{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 
-<body>   
+<body>
+    <table>
+        <caption><h1>Tabella Entate Uscite</h1></caption>
+
+        <colgroup>
+            <col style="background-color: blue;">
+            <col style="background-color: green;">
+            <col style="background-color: red;">
+        </colgroup>
+
+        <thead>
+            <th>MESE</th>
+            <th>ENTRATE</th>
+            <th>USCITE</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Gennaio</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>Febbraio</td>
+                <td>4</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>Marzo</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>Aprile</td>
+                <td>12</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>Maggio</td>
+                <td>24</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Giugno</td>
+                <td>85</td>
+                <td>44</td>
+            </tr>
+
+            <tr>
+                <td>Luglio</td>
+                <td>6</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>Agosto</td>
+                <td>45</td>
+                <td>64</td>
+            </tr>
+
+            <tr>
+                <td>Settembre</td>
+                <td>85</td>
+                <td>31</td>
+            </tr>
+
+            <tr>
+                <td>Ottobre</td>
+                <td>43</td>
+                <td>54</td>
+            </tr>
+
+            <tr>
+                <td>Novembre</td>
+                <td>67</td> 
+                <td>8</td>              
+            </tr>
+
+            <tr>
+                <td>Dicembre</td>
+                <td>27</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>TOTALE</th>
+                <th>404</th>
+                <th>215</th>
+            </tr>
+        </tfoot>
+    </table>   
 </body>
 
 </html>
